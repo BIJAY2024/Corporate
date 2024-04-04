@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     width: 100%;
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
 }
+
 
 html{
     font-size: 62.5%;
@@ -134,9 +136,14 @@ header{
         padding-top: 10%;
     }
     .games img{
-        width: 60%;
+        width: 60%;        
     }
-    
+    .hero{
+        display: flex;
+    }
+    #indie-cosmicube .images{
+        width: 100%; 
+    }
     .img{
     
         margin: 5%;
@@ -188,75 +195,7 @@ header{
         padding: 1rem;
         border-radius: 50px;
     }
-}
-
-@media(min-width:0px) and (max-width:800px){
-    .menu nav{
-        display: none;
-    }
-    .menu #sloth{
-        width: 0.1rem;
-        }
-        #hamburger{
-            margin-left: 100%;
-        }
-    #hamburger{
-        display: flex;
-        justify-content: end;
-        background-color: #111111;
-        padding-top: 1%;
-    }
-    .games{
-        display: block;
-        padding-top: 10%;
-    }
-    .games img{
-        width: 50%;
-    }
-    
-    .img{
-        margin: 5%;
-        height: 100%;
-        width: 100%;
-    }
-    #indie-cosmicube{
-        display: flex;
-    }
-    #indie-cosmicube #Among-Us{
-        width: 10%;
-    }
-    #Main-content{
-        background-color: #262626;
-        padding: 5rem;
-        padding-top: 10rem;
-        display: flex;
-    }
-    #indie-cosmicube{
-        display: flex;
-    }
-    #Main-content h3,p{
-        color: white;
-        font-size: 1.5rem;
-        padding: 1rem;
-    }
-    #indie-cosmicube #Among-Us{
-        font-size: 0.7rem;
-        background-color: red;
-        padding: 1px;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        width: 5rem;
-    }
-    #indie-cosmicube a{
-        text-decoration: none;
-        color: white;
-        padding: 1rem;
-        font-size: 7px;
-    }
-}
-
-/* Hero Section */
+    /* Hero Section */
 #button-1{
     background-color: rgb(16, 60, 182);
     color: white;
@@ -418,3 +357,267 @@ footer{
    color: black;
    font-weight: 700;
 }
+
+}
+
+@media(min-width:0px) and (max-width:800px){
+    .menu nav{
+        display: none;
+    }
+    .menu #sloth{
+        width: 0.1rem;
+        }
+        #hamburger{
+            margin-left: 100%;
+        }
+    #hamburger{
+        display: flex;
+        justify-content: end;
+        background-color: #111111;
+        padding-top: 1%;
+    }
+    .games{
+        display: block;
+        padding-top: 10%;
+    }
+    .games img{
+        width: 50%;
+    }
+
+    .Latest div {
+       
+    }
+    .img{
+        margin: 5%;
+        height: 100%;
+        width: 100%;
+    }
+    #indie-cosmicube{
+        display: flex;
+        width: 100%;
+    }
+    #indie-cosmicube .images{
+        width: 38.8rem; 
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+       }
+    #indie-cosmicube #Among-Us{
+        width: 10%;
+    }
+    #Main-content{
+        background-color: #262626;
+        padding: 5rem;
+        padding-top: 10rem;
+        display: flex;
+    }
+    #indie-cosmicube{
+        display: flex;
+    }
+    #Main-content h3,p{
+        color: white;
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    #indie-cosmicube #Among-Us{
+        font-size: 1.2rem;
+        background-color: red;
+        padding: 1.5px;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        width: 7rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    #indie-cosmicube a{
+        text-decoration: none;
+        color: white;
+        padding: 1rem;
+        font-size: 1.4rem;
+    }
+    #Read-more{
+        margin-top: 1rem;
+        width: 40%;
+        color: rgb(44,95,142);
+        border: 2px solid rgb(44,95,142);
+        background-color: #262626;
+        font-weight: 700;
+        padding: 1rem;
+        border-radius: 50px;
+    }
+    #sec-1 h2{
+        font-size: 1.2rem;
+    }
+    #sec-1 .faq{
+        width: 7rem;
+        font-size: 1rem;
+    }
+
+    #sec-2 h2{
+        font-size: 1.2rem;
+    }
+    /* Hero Section */
+#button-1{
+    background-color: rgb(16, 60, 182);
+    color: white;
+    border-radius: 16px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    padding-left: 4rem;
+    width: 18rem;
+    background-color: #2D75B6;
+    margin-top: 2rem;
+}
+
+#hero{
+    background-image:url(Assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-weight: 700;
+    width: auto;
+    padding-bottom: 15%;
+}
+#hero h1{
+    text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
+    padding-top: 20rem;
+}
+#hero h2{
+    text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
+}
+
+/* Writing Section */
+
+#article{
+    background-color:#262626 ;
+}
+
+#latest-news img{
+    width: 95%;
+}
+#latest-news{
+    padding-bottom: 5%;
+}
+#latest-news .inner-text{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    align-items: center;
+}
+
+#latest-news .inner-text a{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    font-weight: 900;
+}
+#latest-news #down-text{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+/* Third Section CSS */
+#third{
+    background-image: url( Assets/bg-1.webp);
+    height: 30rem;
+    background-position: center;
+    background-size: cover;
+    padding: 10%;
+}
+#fourth{
+    background-image: url( Assets/bg-2.webp);
+    height: 30rem;
+    background-position: center;
+    background-size: cover;
+    padding: 10%;
+}
+
+#bg-1 button{
+    background-color: #2D75B6;
+    width: 14%;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+#bg-2 button{
+    background-color: #2D75B6;
+    width: 14%;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+/* sec footer */
+#sec-footer{
+    display: flex;
+    height: 15rem;
+}
+#sec-1{
+    background-color: #2D75B6;
+    color: white;
+    font-size: 1.5rem;
+    padding: 50px;
+    padding-bottom: 10%;
+}
+#sec-1 button{
+    width: 40%;
+    background-color: white;
+    color:#173b5a ;
+    padding: 10px;
+    font-weight: 700;
+    margin-top: 1rem;
+    border-radius: 50px;
+}
+#sec-2{
+    background-color: #1C1C1C;
+    color: white;
+    font-size: 1.5rem;
+    padding: 50px;
+    padding-bottom: 10%;
+    
+}
+#sec-2 input{
+    width: 80%;
+    background-color: white;
+    color:#173b5a ;
+    padding: 5px;
+    font-weight: 700;
+    margin-top: 1rem;
+    border-radius: 50px;
+}
+/* footer CSS */
+footer{
+    background-color:#111111;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#list{
+    display: flex;
+   
+}
+#list li{
+    list-style: none;
+    padding: 4px;
+}
+#list a{
+    text-decoration: none;
+    color: white;
+}
+#icons{
+    display: flex;
+}
+#icons i{
+   background-color: white;
+   border-radius: 100%;
+   padding: 10px;
+   color: black;
+   font-weight: 700;
+}
+
+}
+
